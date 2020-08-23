@@ -6,6 +6,8 @@ A small project to animate a talking lightbulb, the main protagonist in the UK t
 
 While this implementation wasn't used in the end (an Ableton Live setup was instead), it was a great opportunity to play with streaming sound to python and seeing what it could do!
 
+![](https://github.com/jsjohnstone/talkinglightbulb/blob/master/docs/app.gif)
+
 ## Installation
 This app requires the following dependencies:
 - cffi==1.14.2
@@ -34,6 +36,6 @@ You'll need to connect [ENTTEC DMX Pro](https://www.enttec.com/product/controls/
 
 ### Starting the app
 You should be good to go! Just run:
-```python3 main.py``
+```python3 main.py```
 
 ...choose your input and DMX devices and your bulb will be ready to speak.
