@@ -22,14 +22,15 @@ To install, run:
 
 ## Usage
 There are two things you need to setup before you can start the app:
+
 ### Piping sound to the app
 When starting the app, you get to choose your input device. 
 
 If you're using a microphone/external sound, pick your systems input device.
 
-If you want to react to sound being generated on the same machine (e.g. from QLab), you'll need to route the sound through a loopback interface such as Soundflower.
+If you want to react to sound being generated on the same machine (e.g. from QLab), you'll need to route the sound through a loopback interface such as [Soundflower](https://github.com/mattingalls/Soundflower).
 
-Soundflower provides QLab (or your playback software) with an 'output' device it can play music to. If you choose this same device in the application, it'll receive the audio.
+[Soundflower](https://github.com/mattingalls/Soundflower) provides QLab (or your playback software) with an 'output' device it can play music to. If you choose this same device in the application, it'll receive the audio.
 
 ### Connecting to DMX
 You'll need to connect [ENTTEC DMX Pro](https://www.enttec.com/product/controls/dmx-usb-interfaces/dmx-usb-interface/) (or compatible) adapter and have it connected to the appropriate DMX universe your talking lightbulb lives on.
