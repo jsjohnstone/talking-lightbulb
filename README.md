@@ -2,11 +2,13 @@
 A project to make a lightbulb talk
 
 ## Summary
-A small project to animate a talking lightbulb, the main protagonist in the UK tour of [**All Your Wants And Needs Fulfilled Forever**](https://vimeo.com/162170892), a *meta-theatrical ride featuring action packed mime, original songs, and a pulsing electronic score all performed live*.
+Animating a talking lightbulb - a character in [**All Your Wants And Needs Fulfilled Forever**](https://vimeo.com/162170892), a *meta-theatrical ride featuring action packed mime, original songs, and a pulsing electronic score all performed live*, created by The Playground Collective - for the 2016 UK tour.
 
 While this implementation wasn't used in the end (an Ableton Live setup was instead), it was a great opportunity to play with streaming sound to python and seeing what it could do!
 
 ![](https://github.com/jsjohnstone/talkinglightbulb/blob/master/docs/app.gif)
+
+
 
 ## Installation
 This app requires the following dependencies:
