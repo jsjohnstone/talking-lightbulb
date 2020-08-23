@@ -37,6 +37,8 @@ If you want to react to sound being generated on the same machine (e.g. from QLa
 ### Connecting to DMX
 You'll need to connect [ENTTEC DMX Pro](https://www.enttec.com/product/controls/dmx-usb-interfaces/dmx-usb-interface/) (or compatible) adapter and have it connected to the appropriate DMX universe your talking lightbulb lives on.
 
+The DMX channel the lightbulb is on is configured at the top of the script - it's '5' by default but can easily be changed.
+
 ### Starting the app
 You should be good to go! Just run:
 ```python3 main.py```
