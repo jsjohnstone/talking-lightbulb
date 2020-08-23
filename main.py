@@ -17,7 +17,7 @@ motd = """
 """
 print(motd)
 
-def print_sound(indata, frames, time, status):
+def convert_to_dmx(indata, frames, time, status):
 	volume = numpy.linalg.norm(indata)*10
 	dmx_value = int(max(min(255, ((volume / 1000) * 255)), 0))
 	port.dmx_frame[5] = dmx_value
@@ -52,7 +52,7 @@ print("------------------------------------------------------------")
 
 try:
 	while True:
-		with sd.InputStream(callback=print_sound, device=sound_input):
+		with sd.InputStream(callback=convert_to_dmx, device=sound_input):
 			sd.sleep(100000)
 except KeyboardInterrupt:
 	port.dmx_frame[5] = 0
