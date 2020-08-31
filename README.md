@@ -1,4 +1,4 @@
-# talkingLightbulb 💡
+# talking-lightbulb 💡
 A project to make a lightbulb talk
 
 ## Summary
